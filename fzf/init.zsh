@@ -19,3 +19,6 @@ zplug "junegunn/fzf",\
 
 # use fzf for completion anywhere after pressing TAB
 zplug "aloxaf/fzf-tab", defer:3
+
+# use ALT+U to pop fzf widget to select a parent directory (set FZF_UP_BINDKEY to override)
+zplug "pjvds/zsh-fzf-up"
